@@ -6,5 +6,107 @@
     <title>Digital Tasbih</title>
     <link rel="icon" href="./tasbih.png" type="png/icon" />
   </head>
-  <body></body>
+  <body class="container mx-auto max-w-full">
+    <header class="text-center font-serif text-balance mt-10">
+      <h1 class="text-6xl">Digital Tasbih</h1>
+    </header>
+    <main class="font-mono text-balance p-5 md:p-10 text-center space-y-10">
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div
+          class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 space-y-4 flex flex-col justify-center items-center"
+        >
+          <div class="text-center space-y-4">
+            <h2 class="text-3xl font-semibold">Subhan Allah</h2>
+            <p id="subhanAllahText" class="text-3xl font-semibold">0</p>
+          </div>
+          <div>
+            <button
+              id="subhanAllahIncrease"
+              class="bg-gradient-to-r from-green-400 via-green-500 to-green-600 shadow-lg hover:shadow-green-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Increase
+            </button>
+            <button
+              id="subhanAllahDecrease"
+              class="bg-gradient-to-r from-red-400 via-red-500 to-red-600 shadow-lg hover:shadow-red-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Decrease
+            </button>
+          </div>
+          <button
+            id="subhanAllahReset"
+            class="bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 shadow-lg hover:shadow-purple-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+          >
+            Reset Subhan Allah
+          </button>
+        </div>
+        <div
+          class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 space-y-4 flex flex-col justify-center items-center"
+        >
+          <div class="text-center space-y-4">
+            <h2 class="text-3xl font-semibold">Alhamdulilah</h2>
+            <p id="AlhamdulilahText" class="text-3xl font-semibold">0</p>
+          </div>
+          <div>
+            <button
+              id="AlhamdulilahIncrease"
+              class="bg-gradient-to-r from-green-400 via-green-500 to-green-600 shadow-lg hover:shadow-green-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Increase
+            </button>
+            <button
+              id="AlhamdulilahDecrease"
+              class="bg-gradient-to-r from-red-400 via-red-500 to-red-600 shadow-lg hover:shadow-red-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Decrease
+            </button>
+          </div>
+          <button
+            id="AlhamdulilahReset"
+            class="bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 shadow-lg hover:shadow-purple-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+          >
+            Reset Alhamdulilah
+          </button>
+        </div>
+        <div
+          class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 space-y-4 flex flex-col justify-center items-center"
+        >
+          <div class="text-center space-y-4">
+            <h2 class="text-3xl font-semibold">Allahuakber</h2>
+            <p id="AllahuakberText" class="text-3xl font-semibold">0</p>
+          </div>
+          <div>
+            <button
+              id="AllahuakberIncrease"
+              class="bg-gradient-to-r from-green-400 via-green-500 to-green-600 shadow-lg hover:shadow-green-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Increase
+            </button>
+            <button
+              id="AllahuakberDecrease"
+              class="bg-gradient-to-r from-red-400 via-red-500 to-red-600 shadow-lg hover:shadow-red-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Decrease
+            </button>
+          </div>
+          <div>
+            <button
+              id="AllahuakberReset"
+              class="bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 shadow-lg hover:shadow-purple-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+            >
+              Reset Allahuakber
+            </button>
+          </div>
+        </div>
+      </section>
+      <button
+        id="allRest"
+        class="bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 shadow-lg hover:shadow-lime-500/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 text-white"
+      >
+        Reset All Tasbih
+      </button>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
